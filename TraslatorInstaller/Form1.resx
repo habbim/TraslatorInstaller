@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 314</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>797, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="folderBrowserDialog1.Description" xml:space="preserve">
+    <value>Busca la carpeta donde quieres instalar la traducción al español de Life Is Strange</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>975, 536</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Instalar</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhKgAoAIEBAP///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBCgABACwAAAAAKgAo
+        AAAI5AADABhIsKBBggESJjzIsODChhAVPoR4cCJFgxIFXsSoEUDGjx0zIgSpcORIkhNFDkSZMiRLlyVX
+        sjQpc2bNlihpenx5EidJnS9h+gQJlOdNoURl9vx5dOnHojZ3xpTKdKfTp02PYrWqdatKqkm5gg371ajY
+        oEuvSoSaM+vYskjJru0696xZuG3tRsVbdajcqXfjeq0bWC3hw3n9Dga8VzBfx4wNM57cFzJlyy4lD9XM
+        tvLlwZqRclZKF7Hiw6HTlm6Z2m3h1Zthd/57OjJs0bJJv308WuxG1b91Bwc7XHjwr8cDAgA7
+</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 565</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 41</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 565</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 41</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>972, 593</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 28</value>
+  </data>
+  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>604, 130</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>975, 314</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>975, 565</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Descomprimir en escritorio</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="progressBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 314</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 23</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 298</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cargando datos, espera...</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="blendPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="blendPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="blendPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1164, 648</value>
+  </data>
+  <data name="blendPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;blendPanel1.Name" xml:space="preserve">
+    <value>blendPanel1</value>
+  </data>
+  <data name="&gt;&gt;blendPanel1.Type" xml:space="preserve">
+    <value>BlendPanel, TraslatorInstaller, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;blendPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;blendPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1164, 648</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Life is Strange - Traducción Español</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
+    <value>folderBrowserDialog1</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
